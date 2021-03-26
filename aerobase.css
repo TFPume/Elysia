@@ -2778,50 +2778,6 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
     background-color: transparent;
 }
 
-.container-PNkimc[aria-label*="Purple Community"] .container-2Rl01u {
-    min-height: 135px;
-}
-
-.container-PNkimc[aria-label*="Purple Community"]::after {
-    content: "Official Support Server for ";
-    position: absolute;
-    font-size: 16px;
-    line-height: 90px;
-    border-radius: 0 5px 5px 0;
-    text-align: center;
-    height: 135px;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: center / cover no-repeat url("https://goldenlys.github.io/ThemeGen/img/SpaceSunrise.jpg") !important;
-}
-
-.container-PNkimc[aria-label*="Purple Community"] .header-2o-2hj:after {
-    content: var(--title) ' v'var(--version);
-    position: absolute;
-    top: 55px;
-    left: 0;
-    right: 0;
-    text-align: center;
-}
-
-.container-PNkimc[aria-label*="Purple Community"] .container-2Rl01u::after {
-    content: "";
-    position: absolute;
-    border-radius: 5px;
-    text-align: center;
-    height: 20px;
-    width: 20px;
-    top: 15px;
-    left: 6.5px;
-    z-index: 1;
-    background: center / cover no-repeat url("https://goldenlys.github.io/ThemeGen/img/PURPLE.gif") !important;
-}
-
-.container-PNkimc[aria-label*="Purple Community"] .guildIconContainer-E1JUVt {
-    display: none;
-}
-
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
     background-color: var(--grey);
     color: #fff;
@@ -3412,10 +3368,6 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
     margin-top: 5px;
 }
 
-.blobContainer-239gwq[aria-label*="Purple Community"] svg img {
-    content: url("https://goldenlys.github.io/ThemeGen/img/PURPLE.gif");
-}
-
 .inner-3GZ54g {
     max-width: 100%;
 }
@@ -3548,4 +3500,48 @@ svg [mask="url(#svg-mask-squircle)"] {
 
 #gif-picker-tab .navButton-2gQCx-, #emoji-picker-tab .navButton-2gQCx- {
     width: 100%;
+}
+
+.container-3w7J-x[aria-label^="Purple Community"] #channels {
+    margin-top: 85px;
+}
+
+.container-3w7J-x[aria-label^="Purple Community"]:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 135px;
+    background: center / cover no-repeat url(https://purplewizard.space/images/header.jpg);
+    -webkit-filter: blur(2.5px);
+    filter: blur(2.5px);
+}
+
+.container-3w7J-x[aria-label^="Purple Community"] .header-2V-4Sw:after, .container-3w7J-x[aria-label^="Purple Community"] .container-1taM1r:before, .container-3w7J-x[aria-label^="Purple Community"] .container-1taM1r:after {
+    content: '';
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: var(--Text);
+}
+
+.container-3w7J-x[aria-label^="Purple Community"] .header-2V-4Sw:after {
+    top: 55px;
+    content: "Official support server"
+}
+
+.container-3w7J-x[aria-label^="Purple Community"] .container-1taM1r:before {
+    content: 'Elysia';
+    font-weight: bold;
+    text-align: right;
+    right: calc(45% + 5px);
+}
+
+.container-3w7J-x[aria-label^="Purple Community"] .container-1taM1r:after {
+    content: 'v'var(--version);
+    text-align: left;
+    left: calc(55% + 5px);
 }
