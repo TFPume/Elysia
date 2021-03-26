@@ -14,14 +14,16 @@
     top: calc(48px + var(--ServerSize) * var(--ServerColumns))
 }
 
-#app-mount:before {
+.guilds-1SWlCJ:before {
     content: "";
     position: absolute;
-    top: 22px;
+    top: 0;
     left: 0;
     right: 0;
-    background: var(--TitleBG);
-    height: calc(15px + 10px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns)) !important;
+    bottom: 0;
+    width: 100%;
+    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    background-color: var(--TitleBG);
 }
 
 .platform-web #app-mount:before {
