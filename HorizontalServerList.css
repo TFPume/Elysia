@@ -1,8 +1,6 @@
 /* HORIZONTAL SERVER LIST BY PURPLE WIZARD */
 
 .base-3dtUhz {
-    z-index: 1;
-    position: absolute;
     top: calc(15px + 10px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
     left: 0;
 }
