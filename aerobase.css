@@ -1901,14 +1901,6 @@ polyline[stroke*="#7289da"] {
     background-color: transparent;
 }
 
-.unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsIndicatorTop-gA6RCh {
-    padding: 0;
-    height: 25px;
-    width: 35px;
-    left: 5px;
-    top: 50px;
-}
-
 .unreadMentionsBar-1VrBNe:before {
     content: "";
     position: absolute;
