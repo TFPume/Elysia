@@ -1992,9 +1992,15 @@ polyline[stroke*="#7289da"] {
 }
 
 .guilds-1SWlCJ {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: calc(20px + var(--ServerSize));
     background: var(--TitleBG) !important;
+    height: 100%;
 }
+
+
 
 .base-3dtUhz {
     left: calc(20px + var(--ServerSize));

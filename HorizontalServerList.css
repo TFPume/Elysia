@@ -1,7 +1,7 @@
 /* HORIZONTAL SERVER LIST BY PURPLE WIZARD */
 
 .base-3dtUhz {
-    top: calc(15px + 10px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    top: 0;
     left: 0;
 }
 
@@ -32,10 +32,9 @@
 
 .guilds-1SWlCJ {
     background: transparent !important;
-    padding-top: .25em;
-    width: 100%;
+    padding-top: 0;
     position: unset;
-    height: 100%;
+    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
     width: 100%;
 }
 
