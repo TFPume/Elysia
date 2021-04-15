@@ -1,7 +1,7 @@
 /**
 * @name ELYSIA
 * @author Purple Wizard#0984
-* @version 3.0
+* @version 3.5
 * @invite SBuYeHh
 * @description An amazing RGB theme with full customization included, made by Purple Wizard.
 * @source https://github.com/GoldenLys/BetterDiscord-Elysia
@@ -9,15 +9,18 @@
 * @authorLink https://github.com/GoldenLys
 */
 
-@import url("https://goldenlys.github.io/BetterDiscord-Elysia/aerobase.css");/* DO NOT REMOVE THIS LINE */
-@import url("https://goldenlys.github.io/BetterDiscord-Elysia/RGB/2.css");/* DO NOT REMOVE THIS LINE */
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/aerobase.css");
+/* DO NOT REMOVE THIS LINE */
+
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/RGB/2.css");
+/* DO NOT REMOVE THIS LINE */
 
 /*  PLUGINS (optional)  */
+
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
 @import url("https://goldenlys.github.io/BetterDiscord-Elysia/HoverMemberList.css");
 @import url("https://goldenlys.github.io/BetterDiscord-Elysia/NoOffline.css");
 @import url("https://goldenlys.github.io/BetterDiscord-Elysia/HorizontalServerList.css");
-
 /*  GENERAL CONFIG  */
 
 :root {
@@ -27,6 +30,12 @@
 	--background: url("https://goldenlys.github.io/ThemeGen/img/bg.jpg");
 	--C1: rgb(130, 0, 216);
 	--C2: rgb(0, 225, 255);
+	--C3: rgb(0 0 0);
+	--C4: rgb(0 0 0);
+	--C5: rgb(0 0 0);
+	--C6: rgb(0 0 0);
+	--C7: rgb(0 0 0);
+	--C8: rgb(0 0 0);
 	--time: 5s;
 	--ServerSize: 45px;
 	--ServerColumns: 1;
@@ -56,7 +65,7 @@
 	--HoverMessage: var(--darkgrey5);
 	--Highlighted: var(--grey5);
 	--ActiveBox: rgb(235 235 235);
-
+	
 	/* CUSTOM TEXTS */
 	--JoinUs: "Hey! Wanna have some fun.. Join US !";
 	--AddNewServer: "➕ Add a new server";
