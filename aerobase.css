@@ -35,6 +35,7 @@
     --Channel: '💬';
     --Voice: "🔊";
     --Announcement: "📣";
+    --Stage: "📺";
     --Micro: "🎙️";
     --Headset: "🎧";
     --Emoji: '🙂';
@@ -50,7 +51,7 @@
     --FoldersOpen: '💠';
     --ServerSize: 45px;
     --ServerColumns: 1;
-    --version: '3.2';
+    --version: '3.5';
     --Highlighted: var(--grey5);
     --ActiveBox: rgb(0, 255, 136);
 }
@@ -1837,6 +1838,13 @@ div[aria-label="CHANNEL_SETTINGS"] .channel-settings-overview .title-3sZWYQ {
 
 .containerDefault--pIXnN>div:not(.wrapper-2jXpOf) [class^="mainContent"] [class^="name"]:before {
     content: var(--Voice);
+    margin-right: 5px
+}
+
+/* STAGE CHANNEL */
+
+.containerDefault--pIXnN>.wrapper-2jXpOf [class^="mainContent"][aria-label="Stage Channel"] [class^="name"]::before {
+    content: var(--Stage);
     margin-right: 5px
 }
 
