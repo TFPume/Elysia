@@ -5,10 +5,6 @@
     left: 0;
 }
 
-.platform-osx .base-3dtUhz {
-    top: calc(57px + var(--ServerSize) * var(--ServerColumns));
-}
-
 .root-SR8cQa {
     width: calc(100vw - 265px);
     top: calc(48px + var(--ServerSize) * var(--ServerColumns))
