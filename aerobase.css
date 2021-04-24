@@ -51,7 +51,7 @@
     --FoldersOpen: '💠';
     --ServerSize: 45px;
     --ServerColumns: 1;
-    --version: '3.5';
+    --version: '3.6';
     --Highlighted: var(--grey5);
     --ActiveBox: rgb(0, 255, 136);
 }
@@ -933,30 +933,6 @@ rect[fill="#593695"], rect[fill="rgba(80, 54, 149, 1)"], [mask^="url(#svg-mask-s
     border-radius: .5em;
     padding: .5em 1em;
     margin: 0em 1em;
-}
-
-.info-1VyQPT div:nth-child(1)::before {
-    content: "Discord " !important;
-}
-
-.info-1VyQPT>div:nth-child(3):after, .info-1VyQPT>div:nth-child(4):after {
-    display: block;
-    font-size: 12px;
-    line-height: 12px;
-}
-
-.info-1VyQPT>div:nth-child(3):after {
-    content: var(--title) " v"var(--version);
-}
-
-.info-1VyQPT>div:nth-child(4):before {
-    content: var(--Watermark);
-    display: block;
-}
-
-.info-1VyQPT:after, .info-1VyQPT .colorMuted-HdFt4q {
-    font-size: 12px;
-    color: white
 }
 
 .container-2lgZY8 {
@@ -3574,4 +3550,29 @@ svg [mask="url(#svg-mask-squircle)"] {
 
 .bd-addon-list .bd-addon-header {
     background-color: var(--grey5);
+}
+
+.info-1VyQPT>.colorMuted-HdFt4q {
+    color: var(--Text);
+}
+
+.info-1VyQPT>div:nth-child(1):before {
+    display: block;
+    content: var(--Watermark);
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.info-1VyQPT:before {
+    display: block;
+    content: "ELYSIA v"var(--version);
+    color: var(--Text);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.wrapper-3WhCwL {
+    color: var(--text-normal);
 }
