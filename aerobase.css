@@ -826,7 +826,7 @@ rect[fill="#f04747"], .role-2irmRk:hover .roleRemoveIcon-2-TeGW path {
     font-weight: 600;
 }
 
-div[style="background-color: rgb(240, 71, 71);"] {
+div[style="background-color: rgb(240, 71, 71);"], .bd-button.bd-button-danger {
     background-color: var(--Unavailable) !important;
 }
 
@@ -3126,6 +3126,9 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
     border-radius: 5px;
     height: 30px;
     width: 30px;
+    display: flex;
+    place-content: center;
+    place-items: center;
 }
 
 .value-2hFrkk:after {
@@ -3563,4 +3566,12 @@ svg [mask="url(#svg-mask-squircle)"] {
 
 .container-3baos1 .avatar-SmRMf2 .avatarSpeaking-2c8-9i {
     display: none;
+}
+
+.bd-switch .bd-switch-body {
+    display: none;
+}
+
+.bd-addon-list .bd-addon-header {
+    background-color: var(--grey5);
 }
