@@ -203,3 +203,7 @@
     left: 10px;
     top: calc(15px + var(--ServerSize));
 }
+
+[class^=expandedFolderBackground]:not(.collapsed-2ZrjoL) {
+    width: 100%;
+}

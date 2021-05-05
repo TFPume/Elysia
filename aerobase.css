@@ -1744,32 +1744,32 @@ a.channel-2QD9_O {
     border-radius: 5px;
 }
 
+[class^=expandedFolderBackground]:not(.collapsed-2ZrjoL) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+}
+
 .expandedFolderBackground-1cujaW {
     min-height: 35px;
 }
 
+.closedFolderIconWrapper-2sTcE6 {
+    display: flex; 
+    place-content: center;
+    place-items: center;
+}
+
 .closedFolderIconWrapper-2sTcE6:after {
-    position: absolute;
     content: var(--Folders);
     font-size: 25px;
-    line-height: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 .expandedFolderIconWrapper-Huv7rA:after {
-    position: absolute;
     content: var(--FoldersOpen);
     font-size: 25px;
-    line-height: 1.8;
-    text-align: center;
-    width: 100%;
-    height: 100%;
 }
 
 .unread-1xRYoj {
@@ -2010,8 +2010,8 @@ polyline[stroke*="#7289da"] {
 }
 
 .wrapper-1BJsBx, .wrapper-25eVIn>svg>foreignObject, .wrapper-3Njo_c>ul>.listItem-GuPuDH.bd-guild, .closedFolderIconWrapper-2sTcE6, .expandedFolderBackground-1cujaW, .guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.listItem-GuPuDH, .guilds-1SWlCJ .scroller-2FKFPG .listItem-GuPuDH .wrapper-25eVIn, .guilds-1SWlCJ .scroller-2FKFPG .listItem-GuPuDH .svg-1X37T1 {
-    width: 100%;
-    height: 100%;
+    width: var(--ServerSize);
+    height: var(--ServerSize);
     margin: 0;
 }
 
