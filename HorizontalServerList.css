@@ -35,11 +35,11 @@
 }
 
 .expandedFolderBackground-2sPsd- {
-    border-radius: .25em 0 0 .25em !important;
+    border-radius: 5px 0 0 5px !important;
 }
 
 .expandedFolderBackground-2sPsd-.collapsed-1GMuSb {
-    border-radius: .25em !important;
+    border-radius: 5px !important;
     height: var(--ServerSize);
 }
 
@@ -75,7 +75,7 @@
 .guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.wrapper-3Njo_c {
     margin: 10px 0 5px 5px !important;
     max-height: var(--ServerSize);
-    border-radius: .25em;
+    border-radius: 5px;
     padding: 0px;
 }
 
@@ -90,7 +90,7 @@
     display: flex;
     align-items: center;
     height: auto !important;
-    border-radius: 0 .25em .25em 0;
+    border-radius: 0 5px 5px 0;
 }
 
 .guilds-1SWlCJ>ul>div[class^=scroller-]>.tutorialContainer-1v44GL, .guilds-1SWlCJ ul div[class^=scroller-]>.tutorialContainer-SGrQ1h, .guilds-1SWlCJ>ul>div[class^=scroller-]>div:last-child {
@@ -175,7 +175,7 @@
 }
 
 #bd-pub-button {
-    border-radius: .25em;
+    border-radius: 5px;
     background: url("https://goldenlys.github.io/ThemeGen/img/public.png");
     color: #ffffff;
     font-size: 12px;
