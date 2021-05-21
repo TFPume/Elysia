@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+.pill-1z4sAY, .pill-3N7f9r {
+    left: 0px;
+}
+
 .root-SR8cQa {
     width: calc(100vw - 265px);
     top: calc(48px + var(--ServerSize) * var(--ServerColumns))
