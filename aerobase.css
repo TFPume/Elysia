@@ -88,7 +88,7 @@
     --blurple: var(--C1);
 }
 
-.container-1r6BKw>.children-19S4PO>.iconWrapper-2OrFZ1>svg, .base-1x0h_U {
+.container-1r6BKw>.children-19S4PO>.iconWrapper-2OrFZ1>svg, .base-1x0h_U, .wrapper-3WhCwL {
     color: white;
 }
 
@@ -211,6 +211,8 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
 
 .typeWindows-1za-n7:after {
     text-align: -webkit-center;
+    line-height: 14px;
+    font-size: 16px;
     padding: 0;
     width: 100%;
     content: var(--title);
@@ -264,11 +266,16 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
     border-radius: 5px;
 }
 
+.pill-1z4sAY {
+    left: -10px;
+}
+
 .listItem-GuPuDH.bd-guild.bd-selected>div.blobContainer-239gwq>div>svg {
     border-radius: .5em;
 }
 
 .wrapper-3WhCwL {
+    border-radius: 5px;
     padding: 2px;
     transition: 150ms ease all;
     background: var(--darkgrey5);
@@ -1609,16 +1616,10 @@ button[style="font-family: glue1-spoticon;"] {
 
 .winButtonClose-1HsbF-:hover {
     background-color: var(--Unavailable);
-    border-radius: 0 0 .5em .5em;
 }
 
 .typeWindows-1za-n7>div:nth-child(4):hover, .typeWindows-1za-n7>div:nth-child(3):hover {
     background-color: var(--grey);
-    border-radius: 0 0 .5em .5em;
-}
-
-.winButtonClose-1HsbF-, .typeWindows-1za-n7>div:nth-child(3), .typeWindows-1za-n7>div:nth-child(4) {
-    padding: .15em 0em;
 }
 
 .background-yZEZik {
@@ -1996,6 +1997,7 @@ polyline[stroke*="#7289da"] {
 
 .base-3dtUhz {
     left: calc(20px + var(--ServerSize));
+    width: calc(100% - (20px + var(--ServerSize)));
 }
 
 .guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.listItem-GuPuDH, .guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.wrapper-3Njo_c {
@@ -2594,7 +2596,7 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
     background-color: var(--SendMessage);
     padding: 0 5px 5px 5px !important;
     border-radius: 5px 5px 0 0;
-    margin: 0em 0em 0em 0em;
+    margin: 0em 5px 0em 0em;
 }
 
 .panels-j1Uci_>.container-3baos1 .nameTag-3uD-yy+.flex-1xMQg5.horizontal-1ae9ci {
@@ -3006,6 +3008,10 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
     height: auto !important;
 }
 
+.note-3HfJZ5 {
+    margin: 0;
+}
+
 #bd-settings-sidebar .ui-tab-bar-item {
     color: white !important;
 }
@@ -3148,8 +3154,8 @@ img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"] {
 .modal-3c3bKg .header-QKLPzZ {
     position: relative;
     display: inline-flex;
-    padding: 1rem 0 1rem 2rem;
-    width: calc(100% - 2rem);
+    padding: 1rem 10px;
+    width: calc(100% - 20px);
 }
 
 .modal-3c3bKg .header-QKLPzZ .avatar-3EQepX {
