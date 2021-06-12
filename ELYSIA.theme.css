@@ -45,13 +45,7 @@
 	--Idle: rgb(0, 99, 156);
 	--Unavailable: rgb(228, 15, 0);
 	--Offline: rgb(90, 95, 100);
-	--StreamingColor: rgb(78, 0, 180);
-
-	/*  PROFILE HEADERS (you can also use "url(LINKtoIMAGE)" for the profile headers)  */
-	--Playing: url("https://goldenlys.github.io/ThemeGen/img/playing.jpg");
-	--Xbox: url("https://goldenlys.github.io/ThemeGen/img/xbox.jpg");
-	--Spotify: url("https://goldenlys.github.io/ThemeGen/img/spotify.jpg");
-	--Streaming: url("https://goldenlys.github.io/ThemeGen/img/twitch.jpg");
+	--Streaming: rgb(78, 0, 180);
 
 	/*  MENUS COLORS  */
 	--grey: rgb(77, 70, 85);
