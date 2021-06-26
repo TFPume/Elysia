@@ -6,3 +6,7 @@
 div[aria-label$=", Offline"]>svg>foreignObject+svg {
     display: none;
 }
+
+.avatar-37jOim[aria-label$=", Offline"]+.avatarHint-2A3RNb>foreignObject {
+    mask: none!important;
+}
