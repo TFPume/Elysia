@@ -561,7 +561,7 @@ body, .preview-2nSL_2, #user-settings.layer-3QrUeG {
     animation: K2KBG var(--time) ease infinite !important;
 }
 
-.bodyTitle-1ySSKn, .activity-2INFPu>.headerText-1HLrL7, .bodyTitle-Y0qMQz, .activityProfile-2bJRaP .headerText-1HLrL7, .connectedAccounts-repVzS:before, .activityHeader-1PExlk, .userInfoSectionHeader-CBvMDh, .h2-2gWE-o, .h3-3PDeKG, .activityUserPopout-2yItg2 .headerText-1HLrL7 {
+.aboutMeTitle-1IYtPE, .bodyTitle-1ySSKn, .activity-2INFPu>.headerText-1HLrL7, .bodyTitle-Y0qMQz, .activityProfile-2bJRaP .headerText-1HLrL7, .connectedAccounts-repVzS:before, .activityHeader-1PExlk, .userInfoSectionHeader-CBvMDh, .h2-2gWE-o, .h3-3PDeKG, .activityUserPopout-2yItg2 .headerText-1HLrL7 {
     display: block;
     font-size: 16px !important;
     line-height: 16px !important;
@@ -1978,12 +1978,12 @@ div[class^=listItemWrapper-], .guildsError-b7zR5H {
     width: var(--ServerSize);
 }
 
-.tutorialContainer-2sGCg9, .tutorialContainer-30WoTp, .tutorialContainer-30WoTp+.listItem-GuPuDH, .tutorialContainer-30WoTp+.listItem-GuPuDH+.listItem-GuPuDH+.listItem-GuPuDH {
+.tutorialContainer-2sGCg9+.listItem-GuPuDH.frame-oXWS21, .tutorialContainer-2sGCg9, .tutorialContainer-30WoTp, .tutorialContainer-30WoTp+.listItem-GuPuDH, .tutorialContainer-30WoTp+.listItem-GuPuDH+.listItem-GuPuDH+.listItem-GuPuDH {
     margin: 10px 0 0 10px !important;
     height: var(--ServerSize);
 }
 
-.tutorialContainer-2sGCg9 .listItem-GuPuDH, .tutorialContainer-30WoTp .listItem-GuPuDH, .tutorialContainer-30WoTp+.listItem-GuPuDH, .tutorialContainer-30WoTp+.listItem-GuPuDH+.listItem-GuPuDH+.listItem-GuPuDH {
+.tutorialContainer-2sGCg9+.listItem-GuPuDH.frame-oXWS21, .tutorialContainer-2sGCg9 .listItem-GuPuDH, .tutorialContainer-30WoTp .listItem-GuPuDH, .tutorialContainer-30WoTp+.listItem-GuPuDH, .tutorialContainer-30WoTp+.listItem-GuPuDH+.listItem-GuPuDH+.listItem-GuPuDH {
     width: var(--ServerSize);
 }
 
@@ -3600,4 +3600,23 @@ rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"], [mask^=
 
 .panels-j1Uci_>.container-3baos1.gameActivityToggleAdded-Yd-YxC .nameTag-3uD-yy>.subtext-3CDbHg>.hoverRoll-YK53gQ {
     max-width: calc(100% - 105px);
+}
+
+.listItem-GuPuDH.frame-oXWS21 {
+    background-color: transparent !important;
+    color: var(--C1);
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    white-space: break-spaces;
+    overflow: hidden;
+}
+
+.listItem-GuPuDH.frame-oXWS21 .childWrapper-anI2G9 {
+    background-color: transparent !important;
+    color: var(--C1);
+}
+
+.listItem-GuPuDH.frame-oXWS21:hover .childWrapper-anI2G9 {
+    color: white;
 }
