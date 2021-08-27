@@ -36,7 +36,7 @@
     padding-top: 0;
     position: unset;
     height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
-    width: 100%;
+    width: 100% !important;
 }
 
 .expandedFolderBackground-2sPsd- {
