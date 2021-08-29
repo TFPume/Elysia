@@ -1455,9 +1455,9 @@ div[aria-label="USER_SETTINGS"] .userSettingsAccount-2eMFVR>div>.userInfoViewing
     border-radius: .5em;
 }
 
-.numberBadge-2s8kKX,
-.mention-1f5kbO {
-    background: var(--Notification) !important;
+#app-mount .numberBadge-2s8kKX,
+#app-mount .mention-1f5kbO {
+    background: var(--Notification);
     border-radius: 5px;
     color: white;
 }
