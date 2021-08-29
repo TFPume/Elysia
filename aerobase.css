@@ -41,7 +41,6 @@
     --Watermark: 'Made with 💖 by Purple Wizard';
     --EditStatus: 'Put another status';
     --WriteMessage: 'Write a message...';
-    --TaggedName: 'YOU';
     --ListenAlong: 'Listen Along';
     --Folders: '📁';
     --FoldersOpen: '💠';
@@ -50,6 +49,7 @@
     --version: '3.8';
     --Highlighted: var(--grey5);
     --ActiveBox: rgb(0, 255, 136);
+    --Notification: var(--Unavailable);
 }
 
 .theme-light,
@@ -1457,7 +1457,7 @@ div[aria-label="USER_SETTINGS"] .userSettingsAccount-2eMFVR>div>.userInfoViewing
 
 .numberBadge-2s8kKX,
 .mention-1f5kbO {
-    background: var(--Unavailable) !important;
+    background: var(--Notification) !important;
     border-radius: 5px;
     color: white;
 }

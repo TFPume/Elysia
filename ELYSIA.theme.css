@@ -1,7 +1,7 @@
 /**
 * @name ELYSIA
 * @author Purple Wizard#0984
-* @version 3.5
+* @version 3.8
 * @invite SBuYeHh
 * @description An amazing RGB theme with full customization included, made by Purple Wizard.
 * @source https://github.com/GoldenLys/BetterDiscord-Elysia
@@ -9,20 +9,16 @@
 * @authorLink https://github.com/GoldenLys
 */
 
-@import url("https://goldenlys.github.io/BetterDiscord-Elysia/aerobase.css");
-/* DO NOT REMOVE THIS LINE */
-
-@import url("https://goldenlys.github.io/BetterDiscord-Elysia/RGB/2.css");
-/* DO NOT REMOVE THIS LINE */
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/aerobase.css"); /* DO NOT REMOVE THIS LINE */
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/RGB/2.css"); /* DO NOT REMOVE THIS LINE */
 
 /*  PLUGINS (optional)  */
-
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
 @import url("https://goldenlys.github.io/BetterDiscord-Elysia/HoverMemberList.css");
 @import url("https://goldenlys.github.io/BetterDiscord-Elysia/NoOffline.css");
 @import url("https://goldenlys.github.io/BetterDiscord-Elysia/HorizontalServerList.css");
-/*  GENERAL CONFIG  */
 
+/*  GENERAL CONFIG  */
 :root {
 	--title: "E L Y S I A";
 	--font: "Quicksand", sans-serif;
@@ -59,6 +55,7 @@
 	--HoverMessage: var(--darkgrey5);
 	--Highlighted: var(--grey5);
 	--ActiveBox: rgb(235 235 235);
+	--Notification: var(--Unavailable);
 	
 	/* CUSTOM TEXTS */
 	--JoinUs: "Hey! Wanna have some fun.. Join US !";
@@ -84,6 +81,5 @@
 	--Micro: "🎙️";
 	--Headset: "🎧";
 	--WriteMessage: 'Write a message...';
-	--TaggedName: 'YOU';
 	--ListenAlong: 'Listen Along';
 }
