@@ -48,7 +48,7 @@
     height: var(--ServerSize);
 }
 
-.guilds-1SWlCJ div[class^=scroller-] .listItem-GuPuDH div[class*='pill'], .tutorialContainer-SGrQ1h .pill-3YxEhL {
+.guilds-1SWlCJ div[class^=scroller-] .listItem-1hlISG div[class*='pill'], .tutorialContainer-SGrQ1h .pill-3YxEhL {
     height: 5px !important;
     top: -7px;
     left: 0px !important;
@@ -75,8 +75,8 @@
 
 .tutorialContainer-1v44GL,
 .guilds-1SWlCJ div[class^=scroller-]>div[aria-label]+.tutorialContainer-SGrQ1h,
-.tutorialContainer-SGrQ1h+.listItem-GuPuDH,
-.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.listItem-GuPuDH,
+.tutorialContainer-SGrQ1h+.listItem-1hlISG,
+.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.listItem-1hlISG,
 .guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.wrapper-3Njo_c {
     margin: 10px 0 5px 5px !important;
     max-height: var(--ServerSize);
@@ -131,7 +131,7 @@
     bottom: 0;
 }
 
-.guilds-1SWlCJ>.scrollerWrap-2lJEkd>div[class^=scroller-]>.listItem-GuPuDH {
+.guilds-1SWlCJ>.scrollerWrap-2lJEkd>div[class^=scroller-]>.listItem-1hlISG {
     background-color: var(--grey);
     margin-left: 5px !important;
     border-radius: .35em;
@@ -141,7 +141,7 @@
     margin: 10px 5px 0 5px;
 }
 
-.tutorialContainer-SGrQ1h+.listItem-GuPuDH .pill-3YxEhL .wrapper-sa6paO, .tutorialContainer-SGrQ1h .pill-3YxEhL .wrapper-sa6paO, .item-2hkk8m {
+.tutorialContainer-SGrQ1h+.listItem-1hlISG .pill-3YxEhL .wrapper-sa6paO, .tutorialContainer-SGrQ1h .pill-3YxEhL .wrapper-sa6paO, .item-2hkk8m {
     height: 5px !important;
     width: 100% !important;
     margin: 0 !important;
@@ -152,7 +152,7 @@
     order: 1;
 }
 
-.tutorialContainer-SGrQ1h, .tutorialContainer-SGrQ1h+.listItem-GuPuDH {
+.tutorialContainer-SGrQ1h, .tutorialContainer-SGrQ1h+.listItem-1hlISG {
     order: 2;
 }
 
@@ -167,7 +167,7 @@
     align-content: flex-start;
 }
 
-.guilds-1SWlCJ div[class^=scroller-]>.listItem-GuPuDH:first-child+.listItem-GuPuDH:not([style]), .guilds-1SWlCJ div[class^=scroller-]>div[style]:not(.listItem-GuPuDH)+.listItem-GuPuDH {
+.guilds-1SWlCJ div[class^=scroller-]>.listItem-1hlISG:first-child+.listItem-1hlISG:not([style]), .guilds-1SWlCJ div[class^=scroller-]>div[style]:not(.listItem-1hlISG)+.listItem-1hlISG {
     height: var(--ServerSize);
 }
 
@@ -193,7 +193,7 @@
     border-radius: 0 5px 0 0;
 }
 
-.tutorialContainer-SGrQ1h+.listItem-GuPuDH {
+.tutorialContainer-SGrQ1h+.listItem-1hlISG {
     margin: 10px 5px 0 5px !important;
 }
 
@@ -211,4 +211,10 @@
 
 [class^=expandedFolderBackground]:not(.collapsed-2ZrjoL) {
     width: 100%;
+}
+
+.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill], div[class^=tutorialContainer]+div[class^=listItem] .pill-3YxEhL, div[class^=tutorialContainer] .pill-3YxEhL {
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
