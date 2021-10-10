@@ -1128,14 +1128,14 @@ div[style="background-color: rgb(240, 71, 71);"],
     padding-bottom: 0;
 }
 
-.circleIconButton-1QV--U {
+.circleIconButton-1XqULR {
     box-shadow: none;
     color: var(--C1);
     border-radius: 5px !important;
     background: var(--darkgrey);
 }
 
-.circleIconButton-1QV--U:hover,
+.circleIconButton-1XqULR:hover,
 .hasMore-3e72_v {
     box-shadow: none;
     color: white;
@@ -2300,8 +2300,8 @@ div[class^=listItemWrapper-],
 }
 
 .wrapper-3Njo_c .pill-31IEus,
-.tutorialContainer-30WoTp+.listItem-1hlISG .pill-3YxEhL,
-.tutorialContainer-30WoTp+.listItem-1hlISG+.listItem-1hlISG .pill-3YxEhL,
+.tutorialContainer-32VdNI+.listItem-1hlISG .pill-3YxEhL,
+.tutorialContainer-32VdNI+.listItem-1hlISG+.listItem-1hlISG .pill-3YxEhL,
 .guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.listItem-1hlISG .pill-31IEus,
 .tutorialContainer-2sGCg9 .pill-2uzAFe {
     left: -10px;
@@ -2316,18 +2316,18 @@ div[class^=listItemWrapper-],
 
 .tutorialContainer-2sGCg9+.listItem-1hlISG.frame-oXWS21,
 .tutorialContainer-2sGCg9,
-.tutorialContainer-30WoTp,
-.tutorialContainer-30WoTp+.listItem-1hlISG,
-.tutorialContainer-30WoTp+.listItem-1hlISG+.listItem-1hlISG+.listItem-1hlISG {
+.tutorialContainer-32VdNI,
+.tutorialContainer-32VdNI+.listItem-1hlISG,
+.tutorialContainer-32VdNI+.listItem-1hlISG+.listItem-1hlISG+.listItem-1hlISG {
     margin: 10px 0 0 10px !important;
     height: var(--ServerSize);
 }
 
 .tutorialContainer-2sGCg9+.listItem-1hlISG.frame-oXWS21,
 .tutorialContainer-2sGCg9 .listItem-1hlISG,
-.tutorialContainer-30WoTp .listItem-1hlISG,
-.tutorialContainer-30WoTp+.listItem-1hlISG,
-.tutorialContainer-30WoTp+.listItem-1hlISG+.listItem-1hlISG+.listItem-1hlISG {
+.tutorialContainer-32VdNI .listItem-1hlISG,
+.tutorialContainer-32VdNI+.listItem-1hlISG,
+.tutorialContainer-32VdNI+.listItem-1hlISG+.listItem-1hlISG+.listItem-1hlISG {
     width: var(--ServerSize) !important;
 }
 
