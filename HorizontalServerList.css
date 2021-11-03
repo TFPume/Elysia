@@ -6,7 +6,8 @@
     width: 100%;
 }
 
-.pill-1z4sAY, .pill-3N7f9r {
+.pill-1z4sAY,
+.pill-3N7f9r {
     left: 0px;
 }
 
@@ -48,7 +49,8 @@
     height: var(--ServerSize);
 }
 
-.guilds-1SWlCJ div[class^=scroller-] .listItem-1hlISG div[class*='pill'], .tutorialContainer-SGrQ1h .pill-3YxEhL {
+.guilds-1SWlCJ div[class^=scroller-] div[class^=listItem] div[class*='pill'],
+.tutorialContainer-3alCZm .pill-3YxEhL {
     height: 5px !important;
     top: -7px;
     left: 0px !important;
@@ -74,31 +76,35 @@
 }
 
 .tutorialContainer-1v44GL,
-.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]+.tutorialContainer-SGrQ1h,
-.tutorialContainer-SGrQ1h+.listItem-1hlISG,
-.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.listItem-1hlISG,
-.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.wrapper-3Njo_c {
+.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]+.tutorialContainer-3alCZm,
+.tutorialContainer-3alCZm+div[class^=listItem],
+.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>div[class^=listItem],
+.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.wrapper-shyHJt {
     margin: 10px 0 5px 5px !important;
     max-height: var(--ServerSize);
     border-radius: 5px;
     padding: 0px;
 }
 
-#app-mount .wrapper-3Njo_c {
+#app-mount .wrapper-shyHJt {
     width: auto !important;
     display: flex;
+    height: var(--ServerSize);
     align-items: center;
     margin-bottom: 0;
+    align-self: center;
 }
 
-#app-mount .wrapper-3Njo_c [role=group] {
+#app-mount .wrapper-shyHJt [role=group] {
     display: flex;
     align-items: center;
     height: auto !important;
     border-radius: 0 5px 5px 0;
 }
 
-.guilds-1SWlCJ>ul>div[class^=scroller-]>.tutorialContainer-1v44GL, .guilds-1SWlCJ ul div[class^=scroller-]>.tutorialContainer-SGrQ1h, .guilds-1SWlCJ>ul>div[class^=scroller-]>div:last-child {
+.guilds-1SWlCJ>ul>div[class^=scroller-]>.tutorialContainer-1v44GL,
+.guilds-1SWlCJ ul div[class^=scroller-]>.tutorialContainer-3alCZm,
+.guilds-1SWlCJ>ul>div[class^=scroller-]>div:last-child {
     background-color: transparent;
 }
 
@@ -108,7 +114,7 @@
     order: 0;
 }
 
-.tutorialContainer-SGrQ1h {
+.tutorialContainer-3alCZm {
     margin-left: 5px !important;
 }
 
@@ -131,7 +137,7 @@
     bottom: 0;
 }
 
-.guilds-1SWlCJ>.scrollerWrap-2lJEkd>div[class^=scroller-]>.listItem-1hlISG {
+.guilds-1SWlCJ>.scrollerWrap-2lJEkd>div[class^=scroller-]>div[class^=listItem] {
     background-color: var(--grey);
     margin-left: 5px !important;
     border-radius: .35em;
@@ -141,7 +147,9 @@
     margin: 10px 5px 0 5px;
 }
 
-.tutorialContainer-SGrQ1h+.listItem-1hlISG .pill-3YxEhL .wrapper-sa6paO, .tutorialContainer-SGrQ1h .pill-3YxEhL .wrapper-sa6paO, .item-2hkk8m {
+.tutorialContainer-3alCZm+div[class^=listItem] .pill-3YxEhL .wrapper-sa6paO,
+.tutorialContainer-3alCZm .pill-3YxEhL .wrapper-sa6paO,
+.item-2hkk8m {
     height: 5px !important;
     width: 100% !important;
     margin: 0 !important;
@@ -152,7 +160,8 @@
     order: 1;
 }
 
-.tutorialContainer-SGrQ1h, .tutorialContainer-SGrQ1h+.listItem-1hlISG {
+.tutorialContainer-3alCZm,
+.tutorialContainer-3alCZm+div[class^=listItem] {
     order: 2;
 }
 
@@ -167,7 +176,8 @@
     align-content: flex-start;
 }
 
-.guilds-1SWlCJ div[class^=scroller-]>.listItem-1hlISG:first-child+.listItem-1hlISG:not([style]), .guilds-1SWlCJ div[class^=scroller-]>div[style]:not(.listItem-1hlISG)+.listItem-1hlISG {
+.guilds-1SWlCJ div[class^=scroller-]>div[class^=listItem]:first-child+div[class^=listItem]:not([style]),
+.guilds-1SWlCJ div[class^=scroller-]>div[style]:not(div[class^=listItem])+div[class^=listItem] {
     height: var(--ServerSize);
 }
 
@@ -193,7 +203,7 @@
     border-radius: 0 5px 0 0;
 }
 
-.tutorialContainer-SGrQ1h+.listItem-1hlISG {
+.tutorialContainer-3alCZm+div[class^=listItem] {
     margin: 10px 5px 0 5px !important;
 }
 
@@ -209,11 +219,13 @@
     top: calc(15px + var(--ServerSize));
 }
 
-[class^=expandedFolderBackground]:not(.collapsed-2ZrjoL) {
+[class^=expandedFolderBackground]:not(.collapsed-2Zqqnx) {
     width: 100%;
 }
 
-.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill], div[class^=tutorialContainer]+div[class^=listItem] .pill-3YxEhL, div[class^=tutorialContainer] .pill-3YxEhL {
+.guilds-1SWlCJ .scroller-1Bvpku>div[aria-label]>div div[class^=pill],
+div[class^=tutorialContainer]+div[class^=listItem] .pill-3YxEhL,
+div[class^=tutorialContainer] .pill-3YxEhL {
     width: 100%;
     height: 100%;
     margin: 0;
